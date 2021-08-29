@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="757" height="757" viewBox="0 0 757 757">
+  <defs>
+    <filter id="Shadow_" x="112.5" y="144.5" width="553" height="191" filterUnits="userSpaceOnUse">
+      <feOffset dx="15" dy="15" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur"/>
+      <feFlood flood-color="#97a7c3" flood-opacity="0.502"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Light" x="82.5" y="114.5" width="553" height="191" filterUnits="userSpaceOnUse">
+      <feOffset dx="-15" dy="-15" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="12.5" result="blur-2"/>
+      <feFlood flood-color="#fff"/>
+      <feComposite operator="in" in2="blur-2"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <clipPath id="clip-path">
+      <rect id="Base" width="478" height="116" rx="58" transform="translate(149 440)" fill="#c3e5ff"/>
+    </clipPath>
+    <clipPath id="clip-Button_sample">
+      <rect width="757" height="757"/>
+    </clipPath>
+  </defs>
+  <g id="Button_sample" data-name="Button sample" clip-path="url(#clip-Button_sample)">
+    <rect width="757" height="757" fill="#ecf0f3"/>
+    <g id="UP" transform="translate(-5 34)">
+      <g transform="matrix(1, 0, 0, 1, 5, -34)" filter="url(#Shadow_)">
+        <rect id="Shadow_2" data-name="Shadow " width="478" height="116" rx="58" transform="translate(135 167)" fill="#ecf0f3"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, 5, -34)" filter="url(#Light)">
+        <rect id="Light-2" data-name="Light" width="478" height="116" rx="58" transform="translate(135 167)" fill="#ecf0f3"/>
+      </g>
+      <rect id="Base-2" data-name="Base" width="478" height="116" rx="58" transform="translate(140 133)" fill="#ecf0f3"/>
+    </g>
+    <g id="Mask_Group_3" data-name="Mask Group 3" transform="translate(-5 34)" clip-path="url(#clip-path)">
+      <g id="Shadow" transform="translate(149 440)" fill="none" stroke="#97a7c3" stroke-width="6">
+        <rect width="493" height="145" rx="58" stroke="none"/>
+        <rect x="3" y="3" width="487" height="139" rx="55" fill="none"/>
+      </g>
+      <g id="Light-3" data-name="Light" transform="translate(123 419)" fill="none" stroke="#fff" stroke-width="6">
+        <rect width="504" height="137" rx="58" stroke="none"/>
+        <rect x="3" y="3" width="498" height="131" rx="55" fill="none"/>
+      </g>
+    </g>
+  </g>
+</svg>
