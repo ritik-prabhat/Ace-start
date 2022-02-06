@@ -1,4 +1,2 @@
 # Ace-start
-this is a flutter based project for networking. (under devlopment)
-the UI/UX DESIGN is presented under the repo.
-lib folder contain all flutter files of the project.
+This is a Flutter-based networking project. This repository contains the project's UI/UX Design. The lib folder contains all of the flutter project's files.
